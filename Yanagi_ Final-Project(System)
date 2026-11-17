@@ -1,0 +1,645 @@
+while True:
+
+   print("=" * 40)
+   print("    Python Interactive Tutorial")
+   print("=" * 40)
+
+
+   print("Choose Lessons")
+   print(" [1] - Pre-lim")
+   print(" [2] - MidTerm")
+   print(" [3] - Finals")
+   lesson = input("Select Term: ")
+
+   if lesson == "1":
+      print("Prelim Lessons")
+      print(" [1] - Chapter 1")
+      print(" [2] - Chapter 2")
+      print(" [3] - Chapter 3")
+      print(" [4] - Chapter 4")
+      lessons = input("Enter Prelim Lessons: \n")
+
+      if lessons == "1":
+          print("Chapter 1\n")     
+          print("INTRODUCTION OF PROGRAMMING\n")
+          print("What is Programming Language?")
+          print("-Programming Language is a special language that computers understand and use to perform task.\n")
+          print("What is Python?")
+          print("-Python is a widely used programming language that was created by Guido Von Rossum.\n")
+          print("Who Is Guido Von Rossum?")
+          print("-A Dutch software Engineer best known for creating the Python Programming language in 1991.\n")        
+          print("What Is Programming")
+          print("-Program is the process of writing instruction for a computer to perform a specific task.")
+          print("-It allows to create a software application, and systems that make computer usefull.\n")       
+          print("\nCommon Programming Language Include:")
+          print("Python")
+          print("Java")
+          print("C/C++")
+          print("JavaScript")
+          print("PHP")
+          print("Ruby\n")
+         
+          print("\n" + "=" * 40)
+          
+          print("PRE-LIM\nCHAPTER 1 QUIZ")
+          print("=" * 40)
+
+          score = 0
+
+          print("\nQuestion 1:")
+          print("What is a programming language?")
+          print("[A] A language computers understand")
+          print("[B] A type of computer")
+          print("[C] A computer game")
+          print("[D] An operating system")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "A":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is A.")
+
+          print("\nQuestion 2:")
+          print("Who created Python?")
+          print("[A] Bill Gates")
+          print("[B] Guido van Rossum")
+          print("[C] Mark Zuckerberg")
+          print("[D] Steve Jobs")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "B":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is B.")
+
+          print("\nQuestion 3:")
+          print("In what year was Python first released?")
+          print("[A] 1985")
+          print("[B] 1995")
+          print("[C] 1991")
+          print("[D] 2000")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "C":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is C.")
+
+          print("\n" + "=" * 40)
+          print("          QUIZ RESULTS")
+          print("=" * 40)
+
+          print("Your Score:", score, "/ 3")
+
+          if score == 3:
+             print("Excellent! Perfect Score!")
+          elif score == 2:
+             print("Very Good! Keep it up!")
+          elif score == 1:
+             print("Good Try! Study More!")
+          else:
+             print("Don't Give Up! Review Prelim Chapter 1.")
+
+          print("=" * 40)
+
+        
+      elif lessons == "2":
+          print("CHAPTER 2")
+          print("PYTHON BASIC SYNTAX")
+          print("What is Python Syntax?\n")
+          print("Syntax refers to the set of rules that tells us how to correctly write a program in python.\n")   
+          print("Pythoon Syntax")    
+          print("1.) Python is a case sensitive- Python treats uppercase and lowercase letters differently")   
+          print("2.) Indentation - unlike others programming lamguage, Python uses indentation (Space) to define.\n") 
+          print("Printing Output\n")
+          print("print - the function that display output.\n")
+          print("() - parentheses that contain the information to be dislplay.\n")
+          print("value - The text, number, variable, or expression you want to show.\n")              
+          print("PYTHON COMMENTS")
+          print("•Comments are ignored by python")
+          print("•They are use to explain the code\n")
+          print("We have two different type of comment\nFor single line comment we use (#).\nFor multiple line comment we use triple quotes ('''). \n")
+          print("VARIABLES, CONSTANT AND  DATA TYPES IN PYTHON")
+          print("What is a Variables?")
+          print("A variable is a named location used to keep data  in a programn\n")
+          print("Basic Data Type")
+          print("Data Type\nData types are categories that tell Python what kind of data a variable stores")
+          print("Example of Data Type\n1.int - Whole numbers no Decimal Point\n2.float - Numbers with a decimal point")
+          print("3.str - Text or Character inside Quote\n4.bool - Represent  one of the two values, true of false")
+          
+          print("\n" + "=" * 40)
+          print("PRE-LIM\nCHAPTER 2 QUIZ")
+          print("=" * 40)
+
+          score = 0
+
+          print("\nQuestion 1:")
+          print("Examples of Data Type?")
+          print("[A] int, float, str, bool")
+          print("[B] print, variable, number ")
+          print("[C] decimal, comment, indentation")
+          print("[D] syntax, program, expression")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "A":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is A.")
+
+          print("\nQuestion 2:")
+          print("What does it mean that Python is case-sensitive?")
+          print("[A] Python only accepts uppercase letters")
+          print("[B] Python ignores uppercase letters")
+          print("[C] Python automatucally changes all letters to lowercase")
+          print("[D] Python treats uppercase and lower case letters differently")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "D":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is D.")
+
+          print("\nQuestion 3:")
+          print("Which Python function displays output on the screen?")
+          print("[A] int()")
+          print("[B] type()")
+          print("[C] print()")
+          print("[D] input()")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "C":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is C.")
+
+          print("\n" + "=" * 40)
+          print("          QUIZ RESULTS")
+          print("=" * 40)
+
+          print("Your Score:", score, "/ 3")
+
+          if score == 3:
+             print("Excellent! Perfect Score!")
+          elif score == 2:
+             print("Very Good! Keep it up!")
+          elif score == 1:
+             print("Good Try! Study More!")
+          else:
+             print("Don't Give Up! Review Prelim Chapter 2.")
+
+          print("=" * 40)
+          
+      elif lessons == "3":
+          print("CHAPTER 3\n")
+          print("ARITHMETIC OPERATIONS AND EXPRESSION")
+          print("Arithmetic Operation - Are symbols used to perform mathmematical calculation on numbers")
+          print("Addition +\nSubtracrion -\nMultiplication *\nDivision(float) /\nFloor Division //\nModulus ℅\nExponentiation **\n")
+          print("Expression in Python - An expression is combination of Values, Variables, and Operator that elavorate to a result.\n")
+          print("Python follows the PEMDAS rule")
+          print("P - Parenthesis\nE - Exponent\nM - Multiply\nD - Divide\nA - Addition\nS - Subtraction")
+          print("\n" + "=" * 40)
+          print("PRE-LIM\nCHAPTER 3 QUIZ")
+          print("=" * 40)
+
+          score = 0
+
+          print("\nQuestion 1:")
+          print("Which operators is used for  multilication in Pythton?")
+          print("[A] /")
+          print("[B] + ")
+          print("[C] //")
+          print("[D] *")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "D":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is D.")
+
+          print("\nQuestion 2:")
+          print("Which operators is used for  floor divivsion in Pythton?")
+          print("[A] /")
+          print("[B] + ")
+          print("[C] //")
+          print("[D] *")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "C":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is C.")
+
+          print("\nQuestion 3:")
+          print("Which operators is used for Exponentiation in Pythton?")
+          print("[A] /")
+          print("[B] + ")
+          print("[C] //")
+          print("[D] **")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "D":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is D.")
+
+          print("\n" + "=" * 40)
+          print("          QUIZ RESULTS")
+          print("=" * 40)
+
+          print("Your Score:", score, "/ 3")
+
+          if score == 3:
+             print("Excellent! Perfect Score!")
+          elif score == 2:
+             print("Very Good! Keep it up!")
+          elif score == 1:
+             print("Good Try! Study More!")
+          else:
+             print("Don't Give Up! Review Prelim Chapter 3.")
+
+          print("=" * 40)
+      elif lessons =="4":
+          print("CHAPTER 4")
+          print("BASIC INPUT AND OUTPUT IN PYTHON")
+          print("INPUT FUNCTION\nIt allows thw user to input ([promp])function.")
+          print("Example: name = input('Enter Name: ')\n")
+          print("For Integer\nnumber = int('input('Enter Number: ')') \n")
+          print("Using Input()function\nSyntax varilable = input('Promp Message: ')\nAll input is string type by default\n")
+          print("PYHON IPUT - GETTING USER INPUT AND DISPLAYING OUTPUT")
+          print("name = input('Enter Name: ')")
+          print("age = input('Enter Age: ')")
+          print("print('name: ', name ) ")
+          print("print('Age: , age )\n")
+          print("Float Input(for decimal number)")
+          print("grade = float(input('Enter your Grade: ')")
+          print("print(f'Your Grade is {grade}\n")
+          print("Boolean Input(True or False using Conditions)")
+          print("answer = input('Are You a Student? (Yes/No)')")
+          print("student = answer.lower() == 'yes'")
+          print("print('Student Status: student_')")
+          
+          print("\n" + "=" * 40)
+          print("PRE-LIM\nCHAPTER 4 QUIZ")
+          print("=" * 40)
+
+          score = 0
+
+          print("\nQuestion 1:")
+          print("What is the main purpose of the input() function in Python?")
+          print("[A] To display output")
+          print("[B] To get information from the user ")
+          print("[C] To delte variables")
+          print("[D] To perform calculations")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "B":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is B.")
+
+          print("\nQuestion 2:")
+          print("Which function converts user input into a whole number?")
+          print("[A] str()")
+          print("[B] float() ")
+          print("[C] bool()")
+          print("[D] int()")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "D":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is D.")
+
+          print("\nQuestion 3:")
+          print("Which function is used to accept decimal numbers from he user?")
+          print("[A] print()")
+          print("[B] float() ")
+          print("[C] int()")
+          print("[D] str()")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "B":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is B.")
+
+          print("\n" + "=" * 40)
+          print("          QUIZ RESULTS")
+          print("=" * 40)
+
+          print("Your Score:", score, "/ 3")
+
+          if score == 3:
+             print("Excellent! Perfect Score!")
+          elif score == 2:
+             print("Very Good! Keep it up!")
+          elif score == 1:
+             print("Good Try! Study More!")
+          else:
+             print("Don't Give Up! Review Prelim Chapter 4.")
+
+          print("=" * 40)
+      else:
+          print("Invalid Chapter")    
+   elif lesson == "2":
+      print("MidTerm Lessons")
+      print(" [1] - CONDITION STATEMENTS IN PYTHON")
+      print(" [2] - LOGICAL OPERATOR")
+      lessons = input("Enter Midterm Lesson: ")
+      if lessons == "1":
+          print("CHAPTER 5")
+          print("CONDITION STATEMENTS IN PYTHON")
+          print("A Conditional Statements allows to make a desicions baed on whether a condition is True or False\n")
+          print("Relational Operators\nAlso called comparison operetors. are sued to compare two values. The result is always either True or False\n") 
+          print("  OPERATORS  |  MEANING             |    EXAMPLE     |    Result   |")
+          print("     ==      |Equal to              |    10==10      |    True     |")
+          print("     !=      |Not Equal to          |    10!=5       |    True     |")
+          print("     >       |Greater Than          |    10 > 10     |    True     |")
+          print("     <       |Less Than             |    5 < 10      |    True     |") 
+          print("     >=      |Greater Than of Equal |    10 >= 10    |    True     |")
+          print("     <=      |Less Than or Equal to |    5 <= 10     |    True     |\n")
+          print("The if Statement\nThe if Statement executes a block od code only when a conditions is true")
+          print("Example:\nage = 20\nif gae >= 18:\n   print('You are an Adult')\n")
+          print("The else Statement\nThe else statement provieds an alternative when the if condition is false.")
+          print("Example:\nscore = 65\nif score >= 75:\n   print('Passed!!')\nelse:\n   print('Failed')\n")
+          print("The if-elif-else Statement\nThe elif statement is used when there are multiple conditions to evaluate. Python checks each condition from top to bottom and executes the first condition that is True.")
+          print("Example:\nscore = 85\nif score >= 90:\n   print('Excellent!!')\nelif score >= 80:\n   print('Very Good!!')\nelif score >= 75:\n   print('Paseed!!')\nelse:\n   print('Failed!!'\n")
+          
+          print("\n" + "=" * 40)
+          print("MIDTERM\nCHAPTER 5 QUIZ")
+          print("=" * 40)
+
+          score = 0
+
+          print("\nQuestion 1:")
+          print("What is the main purpose of conditional statements in Python?")
+          print("[A] To make decision based on conditions")
+          print("[B] To display picture")
+          print("[C] To repeat code forever")
+          print("[D] To store information")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "A":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is A.")
+
+          print("\nQuestion 2:")
+          print("Which relational operators means 'Equal to' in Python?")
+          print("[A] ==")
+          print("[B] <= ")
+          print("[C] >=")
+          print("[D] =")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "A":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is A.")
+
+          print("\nQuestion 3:")
+          print("What will this code display?\nage=20\nif gae >= 18:\nprint('Adult')")
+          print("[A] False")
+          print("[B] Adult ")
+          print("[C] Minor")
+          print("[D] Nothing")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "B":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is B.")
+
+          print("\n" + "=" * 40)
+          print("          QUIZ RESULTS")
+          print("=" * 40)
+
+          print("Your Score:", score, "/ 3")
+
+          if score == 3:
+             print("Excellent! Perfect Score!")
+          elif score == 2:
+             print("Very Good! Keep it up!")
+          elif score == 1:
+             print("Good Try! Study More!")
+          else:
+             print("Don't Give Up! Review Midterm Chapter 1.")
+
+          print("=" * 40)
+          
+      elif lessons == "2":
+          print("CHAPTER 6")
+          print("LOGICAL OPERATOR")
+          print("Are used to combine or reverse cpndition in a pyhton program they are commonly used with if, elif, and else.\n")
+          print("   OPERATOR   |  Meaning")
+          print("    and       |  Both conditions must be True")
+          print("    or        |  Atleast one condition must be True")
+          print("    not       |  Reverse the result\n")
+          print("Truth Table - and")
+          print(" Condition A  | Condition B | Condition C")
+          print("    True      |    True     |     True  ")
+          print("    True      |    False    |     False  ")
+          print("    False     |    True     |     False  ")
+          print("    False     |    False    |     False  \nAnd = KAILANGAN LAHAT TRUE\n")
+          print("Truth Table - or")
+          print(" Condition A  | Condition B | Condition C")
+          print("    True      |    True     |     True  ")
+          print("    True      |    False    |     True  ")
+          print("    False     |    True     |     True  ")
+          print("    False     |    False    |     False  \nOR = KAHIT ISA LANG ANG TRUE\n")
+          print("Truth Table -  and")
+          print(" Condition   |     not Condition    ")
+          print("    True     |       False       ")
+          print("    False    |      True         \nNOT = KABALIGTARAN ANG RESULTA\n")
+          
+          print("\n" + "=" * 40)
+          print("MIDTERM\nCHAPTER 6 QUIZ")
+          print("=" * 40)
+
+          score = 0
+
+          print("\nQuestion 1:")
+          print("What is the purpose pf logical operators in Python?")
+          print("[A] To combine or reverse conditions")
+          print("[B] To create variables ")
+          print("[C] To repeat code")
+          print("[D] to display text")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "A":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is A.")
+
+          print("\nQuestion 2:")
+          print("Which operator requires Both conditions to be true??")
+          print("[A] if")
+          print("[B] or ")
+          print("[C] and")
+          print("[D] not")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "C":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is C.")
+
+          print("\nQuestion 3:")
+          print("What does the NOT operator do?")
+          print("[A] Repeats conditions")
+          print("[B] Revers the result ")
+          print("[C] Adds numbers")
+          print("[D] Combine conditions")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "B":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is B.")
+
+          print("\n" + "=" * 40)
+          print("          QUIZ RESULTS")
+          print("=" * 40)
+
+          print("Your Score:", score, "/ 3")
+
+          if score == 3:
+             print("Excellent! Perfect Score!")
+          elif score == 2:
+             print("Very Good! Keep it up!")
+          elif score == 1:
+             print("Good Try! Study More!")
+          else:
+             print("Don't Give Up! Review Midterm Chapter 2.")
+
+          print("=" * 40)
+   elif lesson == "3": 
+      print("Finals Lesson")
+      print(" [1] - INTRODUCTION TO ITERATION AND LOOPS")
+      lessons = input("Finals Lesson: ")
+      if lessons == "1":
+          print("INTRODUCTION TO ITERATION\nIteraton means repeating a process in programming,\nIt means repeatedly executing a set of intructions.\nEach repetition is called an iteration.\n")
+          print("Example:\nfor number in range(3)\n   print('Welcome to Python')\nResult: \nWelcome to Python\nWelcome to Python\nWelcome to Python\n")
+          print("TYPES OF LOOPS IN PYTHON")
+          print("FOR LOOP\nRepeats intruction for each item in a sequence.\n\nfor numbrt im range(3)\n   print('Hello!')\nHello!\nHello!\nHello!\n")
+          print("WHILE LOOP\nRepeats instructions while a condition is True.\ncount = 1\nwhile count <=3:\n   print('Hello!')\n   count +=1\n")
+          print("PYTHON FOR LOOP")
+          print("      Syntax                              Example Code")
+          print("for variable in sequence:              for number in range(4)")
+          print("    statement(s)                           print('Study Python')\n")
+          print("FOR LOOP: Print Numbers 1 to 5\nExample Code\nfor number in range(1, 6):\n   print(number)")
+          print("Output\n 1\n 2\n 3\n 4\n 5\n")
+          print("COUNTING DOWNWARD WITH RANGE(): 5 to 1\nExample Code\n fornumber in range (5, 0, =1):\n   print ('number')")
+          print("Output\n 5\n 4\n 3\n 2\n 1\n")
+          print("PYTHON WHILE LOOP")
+          print("        Syntax                       Example Code")
+          print("while condition                      count = 1")
+          print("    statement(s)                     while count <=5:\n                                         print(count)\n                                         count +=1\n")
+          print("COUNTING DOWNWARD WITH A WHILE LOOP: 5 TO 1")
+          print("Example Code \nnumber = 5\nwhile number >=2:\n   print('number')\n   number -= 1\nOutput\n 5\n 4\n 3\n 2\n 1")
+          
+          print("\n" + "=" * 40)
+          print("FINALS\nCHAPTER 7 QUIZ")
+          print("=" * 40)
+
+          score = 0
+
+          print("\nQuestion 1:")
+          print("What does iteration mmean in programming?")
+          print("[A] Creating variable")
+          print("[B] Stopping a program ")
+          print("[C] Deleting instructions")
+          print("[D] Repeating a set of instruction")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "B":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is B.")
+
+          print("\nQuestion 2:")
+          print("What is each repetition called?")
+          print("[A] Condition")
+          print("[B] Function")
+          print("[C] Iterarion")
+          print("[D] Variable")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "C":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is C.")
+
+          print("\nQuestion 3:")
+          print("Which loop repeats instruction for each item in a sequence??")
+          print("[A] Else statement")
+          print("[B] If statement")
+          print("[C] While loop")
+          print("[D] For loop ")
+
+          answer = input("Your answer: ").upper()
+
+          if answer == "D":
+             print("Correct!")
+             score += 1
+          else:
+             print("Wrong! The correct answer is D.")
+
+          print("\n" + "=" * 40)
+          print("          QUIZ RESULTS")
+          print("=" * 40)
+
+          print("Your Score:", score, "/ 3")
+
+          if score == 3:
+             print("Excellent! Perfect Score!")
+          elif score == 2:
+             print("Very Good! Keep it up!")
+          elif score == 1:
+             print("Good Try! Study More!")
+          else:
+             print("Don't Give Up! Review Finals Lesson.")
+
+          print("=" * 40)
+   else: 
+       print("Invalid")
